@@ -5,13 +5,14 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "outDir": "dist", // Specify the output directory
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    // "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false,
     "jsx": "react-jsx",
 
     /* Linting */
@@ -20,6 +21,19 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    // "dist/components/Container/container.js",
+    // "dist/components/DataTable/dataTable.js",
+    // "dist/components/Footer/footer.js",
+    // "dist/components/FormContainer/formContainer.js",
+    // "dist/components/Header/header.js",
+    // "dist/components/QRcode/qrcode.js",
+    // "dist/components/UrlValidation/urlValidate.js",
+    // "dist/helpers/Constants.js",
+    // "dist/interface/urlData.js",
+    // "dist/main.js",
+    // "dist/App.js"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

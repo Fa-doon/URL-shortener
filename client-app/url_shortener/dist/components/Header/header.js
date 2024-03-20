@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Header = () => {
+    return (_jsx("div", { className: "bg-gray-900", children: _jsxs("div", { className: "container flex justify-between items-center py-5 mx-auto", children: [_jsx("div", { className: "text-white font-bold text-3xl tracking-wide ml-4", children: "BRIEFY" }), _jsxs("ul", { className: "flex justify-center space-x-8", children: [_jsx("li", { children: _jsx("a", { href: "#", className: "text-white hover:text-blue-300", children: "About Us" }) }), _jsx("li", { children: _jsx("a", { href: "#", className: "text-white hover:text-blue-300", children: "My URLs" }) }), _jsx("li", { children: _jsx("a", { href: "#", className: "text-white hover:text-blue-300", children: "Analytics" }) })] }), _jsx("div", { className: "mr-4", children: _jsx("button", { className: "bg-white border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white hover:border-transparent font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline", children: "Get Started" }) })] }) }));
+};
+export default Header;
