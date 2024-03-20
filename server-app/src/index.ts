@@ -12,6 +12,8 @@ connectDB();
 const PORT = process.env.PORT || 3002;
 const app = express();
 
+app.set('trust proxy', true);
+
 // Apply Rate Limiter
 const limiter = rateLimit({
 	windowMs: 15 * 60 * 1000, 
