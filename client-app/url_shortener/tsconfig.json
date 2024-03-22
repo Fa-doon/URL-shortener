@@ -23,6 +23,7 @@
   },
   "include": [
     "./src/**/*.tsx",
+    "./src/**/*.ts"
     // "dist/components/Container/container.js",
     // "dist/components/DataTable/dataTable.js",
     // "dist/components/Footer/footer.js",
