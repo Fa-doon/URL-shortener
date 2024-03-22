@@ -27,14 +27,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Apply Cors
-// app.use(
-//   cors({
-//     origin: "https://url-shortener-clo3.onrender.com/api",
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: "https://url-shortener-clo3.onrender.com/api",
+    credentials: true,
+  })
+);
 
-app.use(cors());
+// app.use(cors());
 
 // Routes
 app.use("/api", shortUrl);
