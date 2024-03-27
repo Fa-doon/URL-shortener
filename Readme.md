@@ -1,5 +1,4 @@
-# BRIEFY - A URL Shorterning Application that allows you to input full URLS and get back a shortened and customized URL. 
-
+# BRIEFY - A URL Shorterning Application.
 ## Features
 - Converts long URLS into short and easy to share links
 - Customized URLS
