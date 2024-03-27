@@ -21,7 +21,7 @@ const QRCodeModal: React.FunctionComponent<IQRCodeModalProps> = ({
     a.download = "qrcode.png";
     a.click();
   };
-  
+
   return (
     <Modal
       isOpen={isOpen}
@@ -50,7 +50,7 @@ const QRCodeModal: React.FunctionComponent<IQRCodeModalProps> = ({
             />
           </svg>
         </button>
-        <h2 className="text-lg mb-2">QR Code</h2>
+        <h2 className="text-lg mb-2"><span className="font-bold">QR Code</span></h2>
         <QRCode value={qrUrl} size={200} />
         <button
           onClick={handleDownload}

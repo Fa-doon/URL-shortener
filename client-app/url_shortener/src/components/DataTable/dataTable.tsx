@@ -143,7 +143,6 @@ const DataTable: React.FunctionComponent<IDataTableProps> = (props) => {
     updateReloadState();
   };
 
-
   return (
     <div className="container mx-auto pt-2 pb-10">
       <div className="relatve overflow-x-auto shadow-sm sm:rounded-lg">
