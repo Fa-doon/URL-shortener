@@ -9,17 +9,17 @@
 ## Getting  Started
 
 To get started
-- You can clone this repo on your local machine. 
+You can clone this repo on your local machine. 
 ``` 
 git clone https://github.com/Fa-doon/URL-shortener.git
 ```
 
-- Install dependencies  
+Install dependencies  
 ```
 npm install  OR  yarn install
 ```
 
-- Start the application
+Start the application
 ```
 npm start
 ```
