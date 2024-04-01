@@ -1,8 +1,9 @@
 # BRIEFY - A URL Shorterning Application.
 ## Features
-- Converts long URLS into short and easy to share links
-- Customized URLS
-- Users are able to see the number of clicks a URL has which helps them to know the most visited sites. 
+1. Converts long URLS into short and easy to share links.
+2. Customized URLS.
+3. Users can see the number of clicks a URL has which helps them to know the most visited sites.
+4. Users can generate QR codes for the shortened URL. 
 
 
 ## Getting  Started
